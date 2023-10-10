@@ -1,0 +1,15 @@
+button {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    margin: 22px 33px;
+  }
+  

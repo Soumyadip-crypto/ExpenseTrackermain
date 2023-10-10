@@ -1,0 +1,52 @@
+/* ExpenseForm.css */
+.expense-form-container {
+  width: 544px;
+  margin: 96px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  display: flex; /* Add this line */
+  justify-content: space-between; /* Add this line */
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  width: 45%; /* Adjust this value as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
